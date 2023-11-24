@@ -16,4 +16,4 @@ database.connect();
 // test
 app.use("/api", clientRoutes);
 
-app.listen(port);
+app.listen(process.env.PORT||port);
