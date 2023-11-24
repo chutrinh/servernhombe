@@ -12,8 +12,8 @@ const app = express();
 const port = 5000;
 app.use(cors());
 
-database.connect();
+// database.connect();
 // test
-// app.use("/api", clientRoutes);
+app.use("/api", clientRoutes);
 
 app.listen(port);
