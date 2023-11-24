@@ -14,6 +14,6 @@ app.use(cors());
 
 database.connect();
 // test
-// app.use("/api", clientRoutes);
+app.use("/api", clientRoutes);
 
 app.listen(port);
