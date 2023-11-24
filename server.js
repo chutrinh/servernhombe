@@ -4,7 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 // const authenRoutes = require("./routes/authen");
-const clientRoutes = require("./src/routes/client/client.js");
+// const clientRoutes = require("./src/routes/client/client.js");
 // const adminRoutes = require("./routes/admin");
 // const database = require("./src/config/db/database.js");
 // const multer = require("multer");
@@ -14,6 +14,6 @@ app.use(cors());
 
 // database.connect();
 // test
-app.use("/api", clientRoutes);
+// app.use("/api", clientRoutes);
 
 app.listen(process.env.PORT||port);
