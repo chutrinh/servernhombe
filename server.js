@@ -10,6 +10,6 @@ app.use(cors());
 
 app.use("/api", clientRoutes);
 
-mongoose.connect("mongodb+srv://trinhtvfx22649:DxxTUGzQ9ivnJ3Kr@cluster0.ssvrvkk.mongodb.net/nhombe").then(()=>{
   app.listen(process.env.PORT||port);
-})
+// mongoose.connect("mongodb+srv://trinhtvfx22649:DxxTUGzQ9ivnJ3Kr@cluster0.ssvrvkk.mongodb.net/nhombe").then(()=>{
+// })
